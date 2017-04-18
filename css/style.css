@@ -1,0 +1,145 @@
+body{
+	background-image:url("../images/backgrounds.jpg");
+	background-repeat:repeat;
+	margin:0px;
+
+}
+#main_cntn{
+	width:1000px;
+	margin:0px auto;
+	padding-top:12px;
+	background-color:#000080;
+}
+.header_cntn{
+	height:165px;
+	background-image:url("../images/menu_back.png");
+	background-repeat:repeat;
+}
+.logo_cntn{
+	float:left;
+}
+.logo_cntn img{
+	height:100px;
+	width:100px;
+	padding:33px 30px;
+}
+.apply_cntn{
+	float:right;
+	padding:44px 30px;
+}
+.apply_cntn button{
+	color:white;
+	background:#000080;
+	border-radius:7px;
+	font-size:16px;
+	font-weight:bold;
+	border:0px;
+	padding:7.5px 12px;
+	font-family:verdana;
+}
+.apply_cntn button:hover{
+	background:red;
+	color:white;
+}
+.text_cntn{
+	float:left;	
+}
+.p1_cntn{
+	font-size:30px;
+	font-weight:bold;
+	color:green;
+	font-family:Comic Sans MS;
+	margin: 32px 0px 0px 0px;
+	text-shadow:1px 2px 3px grey;
+}
+.p2_cntn{
+	font-size:19px;
+	color:grey;
+	margin:0px;
+	font-family:arial;
+	padding-bottom:6px;
+}
+.p3_cntn{
+	font-weight:bold;
+	color:red;
+	margin:0px;
+	font-family:arial;
+}
+.menu_cntn{
+	height:40px;
+	padding-top:0px;
+	margin-top:-11px;
+}
+.menu_cntn_style{
+	list-style-type:none;
+}
+.menu_cntn li{
+	float:left;
+	padding:10.5px 10px;
+	font-weight:bold;
+	font-size:16px;
+	font-family:calibri;
+}
+.menu_cntn li:hover{
+	background-color:red;
+	border-radius:5px;
+}
+.menu_cntn li a{
+	text-decoration:none;
+	color:skyblue;
+}
+.menu_cntn li a:hover{
+	color:white;
+}
+
+/*--Slider--*/
+
+@keyframes slider{
+0%{left:0;}
+20%{left:0;}
+25%{left:-100%;}
+45%{left:-100%;}
+50%{left:-200%;}
+70%{left:-200%}
+75%{left:-300%}
+95%{left:-300%}
+100%{left:-400%}
+}
+#slider{
+	overflow:hidden;
+}
+#slider figure img{
+	width:20%;
+	float:left;
+}
+#slider figure{
+	position:relative;
+	width:500%;
+	margin:0;
+	left:0;
+	text-align:left;
+	font-size:0;
+	animation:20s slider infinite;
+}
+
+/*--Slider--*/
+
+.footer_cntn{
+	height:50px;
+}
+.footer_left_cntn{
+	float:left;
+	padding:0px 20px;
+	font-weight:bold;
+	color:white;
+}
+.footer_right_cntn{
+	float:right;
+	padding:0px 10px;
+	font-weight:bold;
+	color:white;
+}
+.footer_right_cntn a{
+	text-decoration:none;
+	color:pink;
+}
